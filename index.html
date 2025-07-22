@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Chat Box</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/6.5.95/css/materialdesignicons.min.css">
+</head>
+<body>
+    <div class="card">
+        <div id="header">
+            <h1>Chatbox</h1>
+        </div>
+        <div id="message-section">
+            <div class="message" id="bot"><span id="bot-response">Hello, I'm listening...</span></div>
+        </div>
+        <div id="input-section">
+            <input id="input" type="text" placeholder="Type a message" autocomplete="off" autofocus>
+            <button class="send" onclick="sendMessage()">
+                <div class="circle"><i class="mdi mdi-send"></i></div>
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
